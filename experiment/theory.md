@@ -22,7 +22,7 @@ The typical block diagram of an ADC is shown in Fig. 1 below. <br />
                             <div align="center">
                             <img src="images/exp1.jpg" style="width:500px;height:400px;" /> 
                             <br />
-                            Figure 1 (IC 74138)</div>
+                            </div>
  
 
 The process of digitization consists of first sampling (digitization in time) and quantization (digitization in amplitude). In this experiment we will study and understand the principle of sampling, while the principle of quantization will be studied in the next experiment. The sampling process depicts an analog signal as a sequence of values. The basic sampling function can be carried out with an ideal 'sample-and-hold' circuit which maintains the sampled signal until next sample is taken. An ideal sampler can be considered as a switch that periodically opens and closes every T seconds. The sampling frequency (fs in Hertz) is thus defined as
@@ -33,7 +33,7 @@ The sampled discrete time signal x(nT) , n=0,1,2,.... of the original continuous
 <div align="center">
                             <img src="images/expt1Fig2.png" style="width:500px;height:400px;" /> 
                             <br />
-                            Figure 2 (IC 74138)</div>
+                            </div>
                             
 In order to represent an analog signal x(t) by a discrete-time signal x(nT) accurately, so that the analog signal can be exactly reconstructed back from the discrete-time signal, the sampling frequency fs must be at least twice the maximum frequency component (fM) of the original analog signal. Thus we have,
 
@@ -45,7 +45,7 @@ Consider an analog signal of frequency 1Hz as shown in Fig. 3(a) below. The samp
 <div align="center">
                             <img src="images/abc1.jpg" style="width:500px;height:400px;" /> 
                             <br />
-                            Figure 3 (IC 74138)</div>
+                            </div>
 
 
 Now let's consider, the analog signal of frequency 5Hz as shown in Fig. 4(a) below. The sampling frequency is same as above, i.e. 4Hz. The sampled signal is shown in Fig. 4(b), Note that the reconstruction of the original analog signal is not possible since the sampling frequency does not satisfy Shannon's Sampling Theorem. In this case the reconstructed signal has a frequency of 1Hz. The signal of 5Hz is folded back as 1Hz, into the range determined by the sampling frequency leading to the problem of aliasing. <br/>
@@ -54,7 +54,7 @@ Now let's consider, the analog signal of frequency 5Hz as shown in Fig. 4(a) bel
 <div align="center">
                             <img src="images/abc2.png" style="width:500px;height:400px;" /> 
                             <br />
-                            Figure 4 (IC 74138)</div>
+                            </div>
 
 
      
