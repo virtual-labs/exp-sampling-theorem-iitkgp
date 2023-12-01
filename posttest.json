@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which of the following is not an advantage of undersampling?",
+      "answers": {
+        "a": "Slower ADC",
+        "b": "Less power",
+        "c": "Fast microprocessors",
+        "d": "Low memory capacity"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The sampling frequency of the signal g(t) = sinc2 (200 t) is",
+      "answers": {
+        "a": "100 Hz",
+        "b": "200 Hz",
+        "c": "400 Hz",
+        "d": "800 Hz"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How many minimum number of samples are required to exactly describe the following signal? x(t) = 10 cos(6πt) + 4 sin(8πt)",
+      "answers": {
+        "a": "4 sample per second",
+        "b": "6 sample per second",
+        "c": "8 sample per second",
+        "d": "2 sample per second"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A system has a sampling rate of 50,000 samples per second. The maximum frequency of the signal it can acquire to reconstruct is",
+      "answers": {
+        "a": "25 KHz",
+        "b": "50 KHz",
+        "c": "100 KHz",
+        "d": "10 KHz"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The spectrum of a band pass signal spans from 20 kHz to 30 kHz. The signal can be recovered ideally from the sampled values when the sampling rate is at least:",
+      "answers": {
+        "a": "20 KHz",
+        "b": "60 KHz",
+        "c": "50 KHz",
+        "d": "40 KHz"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

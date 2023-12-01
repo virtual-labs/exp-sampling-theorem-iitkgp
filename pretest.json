@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Study of sampling theorem, effect of undersampling",
+      "answers": {
+        "a": "Original signal can be created",
+        "b": "Bandwidth decreases",
+        "c": "Bandwidth increases",
+        "d": "Channel capacity decreases"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A single tone 4 kHz message signal is sampled with 9 kHz, 7 kHz and 5 kHz.  Aliasing effect will be seen in the reconstructed signal, when the signal is sampled with",
+      "answers": {
+        "a": "9 kHz",
+        "b": "any of 9 kHz, 7 kHz, or 5 kHz",
+        "c": "Both 9 kHz and 7 kHz",
+        "d": "Both 7 kHz and 5 kHz"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A single tone 4 kHz message signal is sampled with 10 kHz and 6 kHz. Aliasing effect will be seen in the reconstructed signal when the signal is sampled with",
+      "answers": {
+        "a": "10 kHz",
+        "b": "6 kHz",
+        "c": "Both 10 kHz and 6 kHz",
+        "d": "Neither 10 kHz nor 6 kHz"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Find the Nyquist rate and Nyquist interval of sin(2πt).",
+      "answers": {
+        "a": " 2 Hz, 1/2 sec",
+        "b": "1/2 Hz, 1/2 sec",
+        "c": "1/2 Hz, 2 sec",
+        "d": "2 Hz, 2 sec"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The effect caused by under sampling is called",
+      "answers": {
+        "a": "smoothing",
+        "b": "sharpening",
+        "c": "summation",
+        "d": "aliasing"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is true with respect to undersampling?",
+      "answers": {
+        "a": "High power",
+        "b": "Greater than Nyquist frequency",
+        "c": "Use low pass filters",
+        "d": "Less memory size"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
