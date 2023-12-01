@@ -27,7 +27,7 @@ The typical block diagram of an ADC is shown in Fig. 1 below. <br />
 
 The process of digitization consists of first sampling (digitization in time) and quantization (digitization in amplitude). In this experiment we will study and understand the principle of sampling, while the principle of quantization will be studied in the next experiment. The sampling process depicts an analog signal as a sequence of values. The basic sampling function can be carried out with an ideal 'sample-and-hold' circuit which maintains the sampled signal until next sample is taken. An ideal sampler can be considered as a switch that periodically opens and closes every T seconds. The sampling frequency (fs in Hertz) is thus defined as
 
-fs=1T....(1)
+$$f_s=\frac{1}{T}....(1)$$
 The sampled discrete time signal x(nT) , n=0,1,2,.... of the original continuous time signal x(t) is shown in Fig. 2 below.<br/>
 
 <div align="center">
@@ -35,9 +35,10 @@ The sampled discrete time signal x(nT) , n=0,1,2,.... of the original continuous
                             <br />
                             </div>
                             
-In order to represent an analog signal x(t) by a discrete-time signal x(nT) accurately, so that the analog signal can be exactly reconstructed back from the discrete-time signal, the sampling frequency fs must be at least twice the maximum frequency component (fM) of the original analog signal. Thus we have,
+In order to represent an analog signal x(t) by a discrete-time signal x(nT) accurately, so that the analog signal can be exactly reconstructed back from the discrete-time signal, the sampling frequency fs must be at least twice the maximum frequency component (fM) of the original analog signal. Thus we have, </br>
 
-fs≥2fm....(2)
+fs≥2fm....(2) </br>
+
 The minimum sampling rate is called the Nyquist rate and the above Sampling Theorem is called the Shannon's Sampling Theorem. When an analog signal is sampled at fs , frequency components higher than fs/2 fold back into the frequency range [0, fs/2]. This folded frequency components overlap with the original frequency components in the same range and leads to an undesired effect known as aliasing. In this case, the original analog signal cannot be recovered from the sample data.
 
 Consider an analog signal of frequency 1Hz as shown in Fig. 3(a) below. The sampling frequency is 4Hz. The sampled signal is shown in Fig. 3(b), Note that an exact reconstruction of the missing samples is obtained so long as the Shannon's Sampling Theorem is satisfied. <br />
